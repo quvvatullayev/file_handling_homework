@@ -11,10 +11,11 @@ def main(data:str):
     harf = 0
     i = 0
     while i < len(data):
-        if data[i].isalpha():
-            harf += 1
-        elif data[i].isdigit():
+        if data[i].isdigit():
             son += 1
+
+        else:
+            harf += 1
 
         i += 1
     list1.append(son)
