@@ -10,7 +10,7 @@ def main(data:str):
     i = 0
     while i < len(data):
         if data[i].isdigit():
-            x.append(i)
+            x.append(data[i])
         i += 1
     return x
     
