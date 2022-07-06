@@ -6,7 +6,7 @@ def main(data:str):
     Returns:
         int: return answer
     """
-    list_max = data.split()
+    list_max = data.split('\n')
     list_h = []
     i = 0
     while i < len(list_max):
