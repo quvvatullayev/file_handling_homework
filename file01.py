@@ -7,9 +7,9 @@ def main(data:str):
         list: return answer
     """
     
-    return list(data)
+    return data.splitlines()
 
 
 # Read data from file
-f = open("data01.txt").read()
+f = open("txt_file/data01.txt").read()
 print(main(f))
